@@ -1,5 +1,9 @@
 //SPDX-License-Identifier: UNLICENSED
 pragma solidity >=0.5.0 < 0.9.0;
+
+import "hardhat/console.sol";
+
+
 contract Token{
     string public name="hardhat Token";
     string public symbol= "HHT";
